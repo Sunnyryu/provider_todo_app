@@ -22,7 +22,6 @@ class BgColorState extends Equatable {
 
 class BgColor extends StateNotifier<BgColorState> {
   BgColor() : super(BgColorState(color: Colors.blue));
-
   // initial state setting은 super call에 주는 값이 초기의 state임!
   // 초기의 state 값을 외부에서 바꿔줘야한다면, bgcolor에 state를 전달하고, 그 값을 이용해
   // state setting을 함, 그리고 또 하나는 편한점은 state를 변화시키고 나서, notifylistner를 쓰지 않아도 됌

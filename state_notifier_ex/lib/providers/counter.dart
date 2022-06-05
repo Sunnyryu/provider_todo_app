@@ -22,7 +22,7 @@ class CounterState extends Equatable {
 }
 
 class Counter extends StateNotifier<CounterState> with LocatorMixin {
-  // read, watch 기능을 사용하기 위한 것 LocatorMixin => serviceLocator라고도 함
+  // read, watch 기능을 사용하기 위한 것 LocatorMixin => serviceLcator라고도 함
   Counter() : super(CounterState(counter: 0));
 
   void increment() {

@@ -17,7 +17,11 @@ State는 주로 클래스형으로 (논리적으로 연관된 값들을 묶어�
 
 copyWith 함수 사용해 새로운 state 만듬(다른 것으로 인해 변하지 않는 state)
 
+<<<<<<< HEAD
 항상 equatable class를 포함(object instance equality check easy! )
+=======
+항상 equatable class를 포함(object instance equality check easy!)
+>>>>>>> ede719e43a3c78221ffbd43760689743f4444cd0
 stringify 등 편의 함수 제공
 
 ## study Focused
